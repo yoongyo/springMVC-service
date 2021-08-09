@@ -114,6 +114,9 @@ public class BasicItemController {
     public void init() {
         itemRepository.save(new Item("itemA", 1000, 10));
         itemRepository.save(new Item("itemB", 2000, 20));
+        itemRepository.save(new Item("itemC", 2000, 20));
+        itemRepository.save(new Item("itemD", 2000, 20));
+
 
     }
 }
